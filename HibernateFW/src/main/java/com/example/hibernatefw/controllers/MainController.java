@@ -163,21 +163,18 @@ public class MainController implements Initializable {
             reset();
         }
     }
+//    public void onSimple(ActionEvent actionEvent) throws JRException, InterruptedException {
+//            ReportThread simpleThread = new ReportThread("report/SimpleReport.jasper", connection);
+//            ExecutorService executor = Executors.newCachedThreadPool();
+//            executor.execute(simpleThread);
+//            executor.shutdown();
+//    }
 
-    public void onSimple(ActionEvent actionEvent) {
-//        throws JRException {
-//        Map parameter = new HashMap();
-//        JasperPrint jasperPrint = JasperFillManager.fillReport("report/SimpleReport.jasper", parameter, connection);
-//        JasperViewer jasperViewer = new JasperViewer(jasperPrint, false);
-//        jasperViewer.setVisible(true);
-    }
-
-        public void onGroup (ActionEvent actionEvent){
-//        throws JRException {
-//                Map parameter = new HashMap();
-//                JasperPrint jasperPrint = JasperFillManager.fillReport("report/GroupReport.jasper", parameter, connection);
-//                JasperViewer jasperViewer = new JasperViewer(jasperPrint, false);
-//                jasperViewer.setVisible(true);
-//            }
-        }
+//    public void onGroup(ActionEvent actionEvent) throws JRException, InterruptedException {
+//            ReportThread simpleThread = new ReportThread("report/GroupReport.jasper", connection);
+//            ExecutorService executor = Executors.newCachedThreadPool();
+//            executor.execute(simpleThread);
+//            executor.shutdown();
+//    }
+//    }
     }
